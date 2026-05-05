@@ -86,6 +86,7 @@ The trained model was successfully converted into synthesizable HLS C++ code.
 - Verified structure for FPGA synthesis  
 
 ## Project Structure
+```
 ├── data/
 ├── preprocessing/
 ├── model/
@@ -99,7 +100,7 @@ The trained model was successfully converted into synthesizable HLS C++ code.
 │ │ ├── parameters.h
 │ │ └── weights/
 └── README.md
-
+```
 ---
 
 ## 🧠 Key Insight
