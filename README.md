@@ -126,7 +126,6 @@ Bitstream generation
 PYNQ deployment
 
 ## Author
-
 Aditya Dwivedi
 Electronics Engineering | VLSI & FPGA Enthusiast
----
+
