@@ -90,9 +90,10 @@ The trained model was successfully converted into synthesizable HLS C++ code.
 ```
 ├── data/
 ├── preprocessing/
+│ ├── preprocess.py
 ├── model/
 │ ├── train.py
-│ ├── evaluate.py
+│ ├── Validate.py
 │ ├── autoencoder.h5
 │ ├── threshold.npy
 ├── hls_project/
