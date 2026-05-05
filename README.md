@@ -83,10 +83,10 @@ The trained model was successfully converted into synthesizable HLS C++ code.
   - `myproject.cpp`
   - `parameters.h`
   - weight files  
-- Verified structure for FPGA synthesis  
-
-## Project Structure
+- Verified structure for FPGA synthesis
+  
 ```
+## Project Structure
 ├── data/
 ├── preprocessing/
 ├── model/
