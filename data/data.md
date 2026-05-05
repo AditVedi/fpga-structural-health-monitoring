@@ -11,6 +11,7 @@ https://engineering.case.edu/bearingdatacenter
 Place the downloaded `.mat` files in this directory before running preprocessing.
 
 Example:
+```
 data/
 ├── X097_DE_time.mat
 ├── X098_DE_time.mat
