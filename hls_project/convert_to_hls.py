@@ -48,14 +48,3 @@ for root, dirs, files in os.walk('hls_project'):
     for f in files:
         size = os.path.getsize(os.path.join(root, f))
         print(f"{indent}  {f}  ({size:,} bytes)")
-
-print("""
-══ NEXT STEP ════════════════════════════════════════════
-Run in your terminal:
-  where vitis_hls
-
-This tells us if Vitis HLS is installed.
-If not installed, download Vivado + Vitis HLS WebPACK
-from: https://www.xilinx.com/support/download.html
-(free, supports xc7z020, ~30GB download)
-""")
