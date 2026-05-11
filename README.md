@@ -12,7 +12,7 @@ The current stage focuses on building and validating the complete **data → mod
 - Feature extraction: ✅ Complete  
 - Model training & validation: ✅ Complete  
 - HLS conversion (hls4ml): ✅ Complete  
-- FPGA synthesis & deployment: ⏳ Not started  
+- FPGA synthesis & deployment: ⏳ Pending
 
 ---
 
