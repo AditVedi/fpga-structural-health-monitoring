@@ -1,0 +1,13 @@
+# Core ML stack
+tensorflow==2.10.0
+numpy>=1.21,<1.24
+scipy>=1.7
+ 
+# hls4ml — FPGA conversion
+hls4ml[profiling]>=0.7.0
+ 
+# Visualisation
+matplotlib>=3.5
+ 
+# PYNQ (install on board only — not needed on PC)
+# pynq>=2.7
