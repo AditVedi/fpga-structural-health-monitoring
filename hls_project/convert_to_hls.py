@@ -267,27 +267,3 @@ print("""
   BRAMs : ~40
 =================================================================
 """)
-
-if all_ok:
-
-    print("All files OK. Ready for Vitis HLS.\n")
-
-    print("IMPORTANT:")
-    print("  Top function = myproject_axi")
-    print()
-
-    print("Steps:")
-    print("  1. Delete OLD Vitis HLS project")
-    print("  2. Create NEW Vitis HLS project")
-    print("  3. Add ALL firmware files")
-    print("  4. Top function = myproject_axi")
-    print("  5. Run C synthesis")
-    print("  6. Export RTL IP")
-    print()
-
-    print("Vivado:")
-    print("  DMA MM2S -> in_stream")
-    print("  out_stream -> DMA S2MM")
-
-else:
-    print("ERRORS found.")
